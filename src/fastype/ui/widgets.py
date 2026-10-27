@@ -212,6 +212,26 @@ class ThemeButton(QAbstractButton):
             p.drawPath(moon.subtracted(bite))
 
 
+class GuestBanner(QWidget):
+    """A strip under the header while guest mode is on."""
+
+    def __init__(self, parent: Optional[QWidget] = None):
+        super().__init__(parent)
+        self.setFixedHeight(40)
+
+    def paintEvent(self, _e) -> None:
+        p = QPainter(self)
+        p.setRenderHint(QPainter.Antialiasing)
+        r = QRectF(self.rect()).adjusted(36, 4, -36, -4)
+        p.setPen(Qt.NoPen)
+        p.setBrush(t.ACCENT_SOFT)
+        p.drawRoundedRect(r, r.height() / 2, r.height() / 2)
+        p.setPen(t.TEXT)
+        p.setFont(t.ui(12, QFont.Medium))
+        p.drawText(r, Qt.AlignCenter,
+                   "Guest mode  ·  runs are kept only until Fastype quits and never touch your own stats")
+
+
 class StatCard(QWidget):
     """A small card with a caption and a big number that counts to its value."""
 

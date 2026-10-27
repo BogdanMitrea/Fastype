@@ -246,8 +246,6 @@ class PracticePage(QWidget):
         self.length = ChipRow()
         self.settings = settings()
         self.language = ChipRow(list(texts.LANGUAGES), self.settings.value("language", "English"))
-        self.tier = ChipRow(list(texts.TIERS), self.settings.value("tier", "top 1k"))
-        self.tier.setToolTip("How far down the list of common words to go")
         self.punct = Toggle("@ punctuation")
         self.numbers = Toggle("# numbers")
         self.edit = Chip("✎ edit text")
@@ -268,11 +266,11 @@ class PracticePage(QWidget):
         self.miss.setToolTip("Sound for a missed key")
         self.miss.clicked.connect(self._miss_menu)
         self._update_miss_chip()
-        self._dividers = [Divider() for _ in range(4)]
+        self._dividers = [Divider() for _ in range(3)]
         modes = QHBoxLayout()
         modes.addStretch(1)
         modes.addWidget(self.mode)
-        modes.addWidget(self._dividers[3])
+        modes.addWidget(self._dividers[2])
         modes.addWidget(self.show_kb)
         modes.addWidget(self.sound_on)
         modes.addWidget(self.miss)
@@ -280,8 +278,8 @@ class PracticePage(QWidget):
         options = QHBoxLayout()
         options.setSpacing(6)
         options.addStretch(1)
-        for w in (self.length, self._dividers[0], self.language, self._dividers[1], self.tier,
-                  self._dividers[2], self.punct, self.numbers, self.edit):
+        for w in (self.length, self._dividers[0], self.language, self._dividers[1],
+                  self.punct, self.numbers, self.edit):
             options.addWidget(w)
         options.addStretch(1)
         bar = QVBoxLayout()
@@ -328,7 +326,6 @@ class PracticePage(QWidget):
         self.mode.changed.connect(self._mode_changed)
         self.length.changed.connect(lambda _: self.new_run(True))
         self.language.changed.connect(lambda v: self._remember("language", v))
-        self.tier.changed.connect(lambda v: self._remember("tier", v))
         self.punct.toggled.connect(lambda _: self.new_run(True))
         self.numbers.toggled.connect(lambda _: self.new_run(True))
         self.show_kb.toggled.connect(self._toggle_keyboard)
@@ -417,7 +414,7 @@ class PracticePage(QWidget):
         elif mode in ("Words", "Weak keys"):
             self.length.set_items(WORD_COUNTS, "25")
         words_like = mode in ("Words", "Timed", "Weak keys")
-        for w in (self.length, self.language, self.tier, self.punct, self.numbers, *self._dividers[:3]):
+        for w in (self.length, self.language, self.punct, self.numbers, *self._dividers[:2]):
             w.setVisible(words_like)
         self.edit.setVisible(mode == "Custom")
         self.new_run(True)
@@ -453,11 +450,11 @@ class PracticePage(QWidget):
         self._update_live()
 
     def _make_text(self, mode: str):
-        lang, tier = self.language.current(), self.tier.current()
+        lang = self.language.current()
         p, n = self.punct.isChecked(), self.numbers.isChecked()
         if mode == "Timed":
             seconds = int(self.length.current().rstrip("s"))
-            return (texts.words(seconds * 4, lang, p, n, tier=tier), float(seconds), 3,
+            return (texts.words(seconds * 4, lang, p, n), float(seconds), 3,
                     f"{seconds} seconds on the clock. It starts with your first key.")
         if mode == "Code":
             target = texts.code_snippet()
@@ -475,7 +472,7 @@ class PracticePage(QWidget):
                 info = "Drilling your weakest keys:  " + "  ".join(c.upper() for c in top)
             else:
                 info = "Not enough history yet. Finish a few runs and this mode adapts to you."
-        return texts.words(count, lang, p, n, weights=weights, tier=tier), None, 3, info
+        return texts.words(count, lang, p, n, weights=weights), None, 3, info
 
     # --- live updates ----------------------------------------------------------
     def _on_keystroke(self, ch: str, correct: bool) -> None:

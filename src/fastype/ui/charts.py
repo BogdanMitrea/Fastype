@@ -114,6 +114,87 @@ class AreaChart(QWidget):
         p.end()
 
 
+class HourChart(QWidget):
+    """Accuracy for each hour of the day as 24 bars. Hours with few runs are drawn faint."""
+
+    def __init__(self, parent: Optional[QWidget] = None):
+        super().__init__(parent)
+        self.data: dict[int, tuple[float, int, int]] = {}
+        self.bars: list[tuple[QRectF, int]] = []
+        self._grow = Tween(self.update, 700, 1.0, QEasingCurve.OutCubic)
+        self.setMouseTracking(True)
+        self.setMinimumHeight(190)
+        self.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
+
+    def set_data(self, data: dict[int, tuple[float, int, int]]) -> None:
+        self.data = data
+        self._grow.to(1.0, 0.0)
+
+    def paintEvent(self, _e) -> None:
+        p = QPainter(self)
+        p.setRenderHint(QPainter.Antialiasing)
+        plot = QRectF(self.rect()).adjusted(48, 10, -14, -24)
+        if not self.data:
+            p.setPen(t.MUTED)
+            p.setFont(t.ui(13))
+            p.drawText(self.rect(), Qt.AlignCenter, "Finish a few runs and your accuracy by hour shows up here")
+            return
+        # Zoom the axis in on where the values are, so a few percent difference is visible.
+        # Four round steps down from 100% that still leave room under the lowest bar.
+        lowest = min(acc for acc, _, _ in self.data.values())
+        step = next(s for s in (1, 2, 3, 5, 10, 25) if 100 - 4 * s <= lowest - 1)
+        floor_ = 100.0 - 4 * step
+        p.setFont(t.ui(10.5))
+        for k in range(5):
+            v = floor_ + (100 - floor_) * k / 4
+            y = plot.bottom() - plot.height() * k / 4
+            p.setPen(QPen(t.BORDER, 1, Qt.DotLine if k else Qt.SolidLine))
+            p.drawLine(QPointF(plot.left(), y), QPointF(plot.right(), y))
+            p.setPen(t.MUTED)
+            p.drawText(QRectF(0, y - 8, plot.left() - 8, 16), Qt.AlignRight | Qt.AlignVCenter, f"{v:.0f}%")
+
+        slot = plot.width() / 24
+        best = max(self.data, key=lambda h: self.data[h][0])
+        self.bars = []
+        for h in range(24):
+            x = plot.left() + h * slot
+            if h % 3 == 0:
+                p.setPen(t.MUTED)
+                p.drawText(QRectF(x - slot, plot.bottom() + 4, slot * 3, 16), Qt.AlignHCenter | Qt.AlignTop, f"{h:02d}")
+            bar_w = slot * 0.62
+            cx = x + slot / 2
+            if h not in self.data:
+                p.setPen(Qt.NoPen)
+                p.setBrush(t.SURFACE_2)
+                p.drawEllipse(QPointF(cx, plot.bottom() - 3), 2, 2)
+                self.bars.append((QRectF(x, plot.top(), slot, plot.height()), h))
+                continue
+            acc, runs, _ = self.data[h]
+            height = max(3.0, plot.height() * (acc - floor_) / (100 - floor_)) * self._grow.value
+            bar = QRectF(cx - bar_w / 2, plot.bottom() - height, bar_w, height)
+            color = t.ACCENT if h == best else t.TEXT
+            p.setPen(Qt.NoPen)
+            p.setBrush(t.alpha(color, 0.85 if runs >= 3 else 0.3))
+            p.drawRoundedRect(bar, min(4, bar_w / 3), min(4, bar_w / 3))
+            self.bars.append((QRectF(x, plot.top(), slot, plot.height()), h))
+        p.end()
+
+    def mouseMoveEvent(self, e) -> None:
+        for r, h in self.bars:
+            if r.contains(e.position()):
+                if h in self.data:
+                    acc, runs, keys = self.data[h]
+                    tip = (f"{h:02d}:00–{(h + 1) % 24:02d}:00\n{acc:.1f}% accurate over {runs} "
+                           f"run{'s' if runs != 1 else ''} ({keys:,} keys)")
+                    if runs < 3:
+                        tip += "\nfew runs yet, so take this one lightly"
+                else:
+                    tip = f"{h:02d}:00–{(h + 1) % 24:02d}:00\nno runs yet"
+                QToolTip.showText(e.globalPosition().toPoint(), tip, self)
+                return
+        QToolTip.hideText()
+
+
 class ActivityGrid(QWidget):
     """Minutes practised per day for the last few months, one square per day."""
 

@@ -8,8 +8,6 @@ from typing import Optional
 
 DATA = Path(__file__).parent / "data"
 LANGUAGES = {"English": "english.txt", "German": "german.txt"}
-# Difficulty tiers: how far down the frequency-ordered list words are drawn from.
-TIERS = {"top 200": 200, "top 1k": 1000, "all": None}
 
 
 @lru_cache(maxsize=None)
@@ -92,16 +90,14 @@ def words(
     numbers: bool = False,
     weights: Optional[dict[str, float]] = None,
     rng: Optional[random.Random] = None,
-    tier: str = "top 1k",
 ) -> str:
     """Generate `count` random words separated by spaces.
 
-    Words come from the first N of the language's list (see TIERS), with common words
-    picked more often. With `weights` (a score per character, higher = needs more
+    Words come from the whole of the language's list, with common words picked more often. With `weights` (a score per character, higher = needs more
     practice), words containing weak characters are picked more often still.
     """
     rng = rng or random.Random()
-    pool = word_list(language)[:TIERS[tier]]
+    pool = word_list(language)
     word_weights = _frequency_weights(len(pool))
     if weights:
         word_weights = [f * (1.0 + sum(weights.get(c.lower(), 0.0) for c in set(w)))

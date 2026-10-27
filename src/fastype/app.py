@@ -16,7 +16,7 @@ from .store import Store
 from .ui import theme as t
 from .ui.practice import PracticePage, fade_in
 from .ui.progress import ProgressPage
-from .ui.widgets import Logo, PageSwitch, ThemeButton
+from .ui.widgets import GuestBanner, Logo, PageSwitch, ThemeButton, Toggle
 
 ICON = Path(__file__).parent / "assets" / "icon.png"
 
@@ -35,6 +35,8 @@ class Backdrop(QWidget):
 class MainWindow(QMainWindow):
     def __init__(self, store: Store):
         super().__init__()
+        self.store = store
+        self.guest_store: Store | None = None  # created on first use, lives until the app quits
         self.setWindowTitle("Fastype")
         self.resize(1180, 820)
         self.setMinimumSize(980, 700)
@@ -56,6 +58,11 @@ class MainWindow(QMainWindow):
         self.theme_button.clicked.connect(lambda: self.set_dark(not t.dark))
         right = QHBoxLayout()  # as wide as the logo, so the page switch sits in the middle
         right.addStretch(1)
+        self.guest_button = Toggle("guest")
+        self.guest_button.setToolTip("Guest mode: runs aren't added to your stats (⌘⇧G)")
+        self.guest_button.toggled.connect(self.set_guest)
+        right.addWidget(self.guest_button)
+        right.addSpacing(8)
         right.addWidget(self.theme_button)
         holder = QWidget()
         holder.setFixedWidth(180)
@@ -67,14 +74,31 @@ class MainWindow(QMainWindow):
         lay = QVBoxLayout(root)
         lay.setContentsMargins(0, 0, 0, 0)
         lay.addLayout(header)
+        self.guest_banner = GuestBanner()
+        self.guest_banner.hide()
+        lay.addWidget(self.guest_banner)
         lay.addWidget(self.pages, 1)
         self.setCentralWidget(root)
 
         # Shortcuts work wherever the focus is (the typing area takes plain key presses).
         for keys, action in (("Ctrl+1", lambda: self.switch.set_index(0)),
                              ("Ctrl+2", lambda: self.switch.set_index(1)),
-                             ("Ctrl+Shift+L", lambda: self.set_dark(not t.dark))):
+                             ("Ctrl+Shift+L", lambda: self.set_dark(not t.dark)),
+                             ("Ctrl+Shift+G", self.guest_button.toggle)):
             QShortcut(QKeySequence(keys), self, activated=action)
+
+    def set_guest(self, on: bool) -> None:
+        """Point both pages at a throwaway in-memory history, or back at the real one."""
+        if on and self.guest_store is None:
+            self.guest_store = Store(":memory:")
+        store = self.guest_store if on else self.store
+        self.guest_banner.setVisible(on)
+        self.practice.store = store
+        self.progress.store = store
+        if self.pages.currentIndex() == 1:
+            self.progress.refresh()
+        else:
+            self.practice.new_run(True)
 
     def set_dark(self, dark: bool) -> None:
         """Switch themes, cross-fading from a snapshot of the old look."""

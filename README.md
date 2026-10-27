@@ -19,11 +19,13 @@ Tests: `.venv/bin/pytest`
 ## Practice modes
 
 - **Words**: 10–100 random words in English (about 2,800 to pick from) or German (about 2,300, nouns capitalised). Optional punctuation and numbers.
-  - **top 200 / top 1k / all** sets how far down the word list to go. The lists are ordered roughly from most to least common, and common words come up more often even with *all*.
+  - Words come from the whole list, which is ordered roughly from most to least common; common words come up more often.
 - **Timed**: type as much as you can in 15, 30, 60 or 120 seconds.
 - **Weak keys**: picks words that contain the letters you miss most or type slowest, based on your history.
 - **Code**: Python, C++ and SQL snippets. Press Return for new lines; indentation is filled in for you.
 - **Custom**: paste any text.
+
+**guest** (top right, or ⌘⇧G) lets someone else practise without touching your stats: their runs go into a temporary history that disappears when Fastype quits.
 
 Keys: **Tab** new text, **Esc** restart, **⌥⌫** delete a word, **⌘1 / ⌘2** switch pages, **⌘⇧L** light/dark (also the sun/moon button, top right; the first launch follows macOS). Mistakes stay on screen in red; you can go back and fix them or keep going.
 
@@ -31,14 +33,14 @@ While you type, the on-screen keyboard lights up the next key (and which Shift o
 
 **♪ sound** plays a soft key click as you type (a slightly different one each time, a deeper one for space), a muted low tone for a mistake and a short chime when you finish. The **✕ miss** menu swaps the mistake sound for any audio file you pick (MP3, WAV, M4A, AIFF…), with a preview, a volume setting and *Let it finish before playing again* so a long sound isn't restarted by every miss. Picked files are copied to `~/Library/Application Support/Fastype/sounds/`. The built-in sounds are synthesised in code by `ui/sound.py` and cached in `~/Library/Caches/Fastype/`. The sound and keyboard switches are remembered between launches.
 
-After each run you get WPM, raw WPM, accuracy, consistency (how even your rhythm is), the keys you missed and a speed-per-second chart. The **Progress** page shows your totals and day streak, your speed across runs, a calendar of practice days, a keyboard heatmap of error rates and your slowest keys.
+After each run you get WPM, raw WPM, accuracy, consistency (how even your rhythm is), the keys you missed and a speed-per-second chart. The **Progress** page shows your totals and day streak, your speed across runs, your accuracy for each hour of the day, a calendar of practice days, a keyboard heatmap of error rates and your slowest keys.
 
 ## How it's built
 
 ```
 src/fastype/
   engine.py   TypingSession: records every keystroke with a timestamp, computes results. No UI code.
-  texts.py    Word picking (frequency-weighted, by tier), punctuation/number mixing, code snippets.
+  texts.py    Word picking (frequency-weighted), punctuation/number mixing, code snippets.
   data/       english.txt, german.txt: the word lists, most common first. Written for this app and
               checked with the macOS spellchecker. Edit freely; duplicates are ignored.
   settings.py Preferences (FASTYPE_SETTINGS=<file.ini> uses a separate file, for scripted runs).

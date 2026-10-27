@@ -4,6 +4,7 @@ from __future__ import annotations
 import os
 import sqlite3
 import time
+from datetime import datetime
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -77,6 +78,21 @@ class Store:
             (limit,),
         ).fetchall()
         return [SessionRow(*r) for r in reversed(rows)]
+
+    def accuracy_by_hour(self) -> dict[int, tuple[float, int, int]]:
+        """Accuracy per hour of the day (local time): {hour: (accuracy %, runs, keys)}.
+
+        Pools every key typed in that hour, so long runs count for more than short ones.
+        """
+        totals: dict[int, list[int]] = {}
+        for started, chars, errors in self.db.execute("SELECT started_at, chars, errors FROM sessions"):
+            if not chars:
+                continue
+            t = totals.setdefault(datetime.fromtimestamp(started).hour, [0, 0, 0])
+            t[0] += 1
+            t[1] += chars
+            t[2] += errors or 0
+        return {h: (100.0 * (keys - errs) / keys, runs, keys) for h, (runs, keys, errs) in totals.items()}
 
     def key_stats(self) -> dict[str, KeyStat]:
         rows = self.db.execute(

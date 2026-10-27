@@ -12,7 +12,7 @@ from PySide6.QtWidgets import (
 
 from ..store import Store
 from . import theme as t
-from .charts import ActivityGrid, AreaChart
+from .charts import ActivityGrid, AreaChart, HourChart
 from .keyboard import KeyboardWidget
 from .widgets import Chip, StatCard
 
@@ -61,6 +61,7 @@ class ProgressPage(QWidget):
         self.chart = AreaChart(min_height=200)
         self.chart.empty_text = "Finish a run and your speed shows up here"
         self.activity = ActivityGrid()
+        self.hours = HourChart()
         self.heatmap = KeyboardWidget(heatmap=True)
         self.heatmap.setMinimumHeight(250)
         self.slow = QLabel()
@@ -79,8 +80,9 @@ class ProgressPage(QWidget):
         grid = QGridLayout()
         grid.setSpacing(14)
         grid.addWidget(self.chart_panel, 0, 0, 1, 2)
-        grid.addWidget(Panel("Practice calendar", self.activity, "last 6 months"), 1, 0, 1, 2)
-        grid.addWidget(Panel("Where your errors happen", kb_box, "hover a key for details"), 2, 0, 1, 2)
+        grid.addWidget(Panel("Accuracy by time of day", self.hours, "orange: your most accurate hour  ·  faint: under 3 runs"), 1, 0, 1, 2)
+        grid.addWidget(Panel("Practice calendar", self.activity, "last 6 months"), 2, 0, 1, 2)
+        grid.addWidget(Panel("Where your errors happen", kb_box, "hover a key for details"), 3, 0, 1, 2)
 
         content = QWidget()
         lay = QVBoxLayout(content)
@@ -127,6 +129,7 @@ class ProgressPage(QWidget):
         self.chart.set_values([r.wpm for r in last], "older  →  newer",
                               secondary=[r.raw_wpm for r in last])
         self.activity.set_sessions(sessions)
+        self.hours.set_data(self.store.accuracy_by_hour())
         stats = self.store.key_stats()
         self.heatmap.set_stats(stats)
         timed = {c: st.latency_total / st.latency_count for c, st in stats.items()

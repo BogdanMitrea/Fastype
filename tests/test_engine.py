@@ -108,16 +108,13 @@ def test_word_lists_load_without_duplicates():
         assert len(words) == len(set(words))
 
 
-def test_tiers_limit_the_pool():
-    rng = random.Random(4)
-    top = set(texts.word_list("English")[:200])
-    assert set(texts.words(300, tier="top 200", rng=rng).split()) <= top
-    wide = set(texts.words(2000, tier="all", rng=rng).split())
-    assert wide - set(texts.word_list("English")[:1000])  # reaches past the top 1k
+def test_words_reach_the_whole_list():
+    wide = set(texts.words(2000, rng=random.Random(4)).split())
+    assert wide - set(texts.word_list("English")[:1000])  # not just the most common words
 
 
 def test_common_words_come_up_more_often():
-    text = texts.words(5000, tier="all", rng=random.Random(5)).split()
+    text = texts.words(5000, rng=random.Random(5)).split()
     ranks = {w: i for i, w in enumerate(texts.word_list("English"))}
     top100 = sum(1 for w in text if ranks[w] < 100)
     last100 = sum(1 for w in text if ranks[w] >= len(ranks) - 100)
@@ -126,3 +123,16 @@ def test_common_words_come_up_more_often():
 
 def test_german_keeps_capitals():
     assert "Haus" in texts.word_list("German") and "haus" not in texts.word_list("German")
+
+
+def test_accuracy_by_hour_pools_keys():
+    import datetime as dt
+    from fastype.engine import SessionResult
+    store = Store(":memory:")
+    for chars, errors in ((100, 10), (300, 0)):
+        store.save("Words", SessionResult(60, 60, 0, 90, 30, chars, errors, {}))
+    at_nine = dt.datetime(2026, 10, 28, 9, 15).timestamp()
+    store.db.execute("UPDATE sessions SET started_at = ?", (at_nine,))
+    acc, runs, keys = store.accuracy_by_hour()[9]
+    assert (runs, keys) == (2, 400)
+    assert round(acc, 1) == 97.5  # 390 of 400 keys right, not the mean of 90% and 100%
