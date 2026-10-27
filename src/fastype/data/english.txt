@@ -1,0 +1,264 @@
+# Common English words, roughly most frequent first. Written for Fastype.
+# Lines starting with # are ignored. Words may be separated by spaces or newlines.
+the of and to a in is you that it he was for on are as with his they I at be this have
+from or one had by word but not what all were we when your can said there use an each
+which she do how their if will up other about out many then them these so some her would
+make like him into time has look two more write go see number no way could people my than
+first water been call who its now find long down day did get come made may part over new
+sound take only little work know place year live me back give most very after thing our
+just name good sentence man think say great where help through much before line right too
+mean old any same tell boy follow came want show also around form three small set put end
+does another well large must big even such because turn here why ask went men read need
+land different home us move try kind hand picture again change off play spell air away
+animal house point page letter mother answer found study still learn should world yes
+okay really thanks please sorry hello right yeah maybe never always nothing something
+everything anything someone everyone going getting doing looking
+
+high every near add food between own below country plant last school father keep tree
+start city earth eye light thought head under story saw left few while along might close
+seem next hard open example begin life those both paper together got group often run
+important until children side feet car mile night walk white sea began grow took river
+four carry state once book hear stop without second later miss idea enough eat face watch
+far almost let above girl sometimes mountain cut young talk soon list song being leave
+family body music color stand sun question fish area mark dog horse bird problem complete
+room knew since ever piece told usually friend easy heard order red door sure become top
+ship across today during short better best however low hour black product happened whole
+measure remember early reached listen wind rock space covered fast several hold himself
+toward five step morning passed true hundred against pattern table north slowly money map
+farm pulled draw voice seen cold cried plan notice south sing war ground fall king town
+unit figure certain field travel wood fire upon done road half ten fly gave box finally
+wait correct quickly person became shown minute strong front feel fact street decided
+contain course surface produce building ocean class note rest carefully inside wheel stay
+green known island week less machine base ago stood plane system behind ran round boat
+game force brought understand warm common bring explain dry though language shape deep
+thousand clear yet government filled heat full hot check object rule among power cannot
+able six size dark ball material special heavy fine pair circle include built matter
+square perhaps bill felt suddenly test direction center farmer ready divided general
+energy subject moon region return believe dance member picked simple cell paint mind love
+cause rain exercise egg train blue wish drop developed window difference distance heart
+sit sum summer wall forest probably legs sat main winter wide written length reason kept
+interest arms brother race present beautiful store job edge past sign record finished
+discovered wild happy beside gone sky glass million west lay weather root meet third
+month raised represent soft whether clothes flower shall teacher held describe drive cross
+speak solve appear metal son either ice sleep village result jumped snow ride care floor
+hill pushed baby buy century outside tall already instead phrase soil bed copy free hope
+spring case laughed nation quite type themselves temperature bright lead method section
+lake within dictionary hair age amount scale pound although per broken moment tiny
+possible gold milk quiet natural lot stone act build middle speed count cat sail rolled
+bear wonder smiled angle killed bottom trip hole poor fight surprise died beat exactly
+remain dress iron fingers row least catch climbed wrote shouted continued itself else gas
+burning design joined foot law ears grass grew skin valley key president brown trouble
+cool cloud lost sent wear bad save experiment engine alone drawing east pay single touch
+information express mouth yard equal yourself control practice report straight rise
+statement stick party seed suppose woman coast bank period wire choose clean visit bit
+whose received garden strange caught fell team captain direct ring serve child desert
+increase history cost business separate break uncle hunting flow lady student human art
+feeling supply corner electric crop tone hit sand doctor provide thus cook bone tail board
+modern mine fit addition belong safe soldier guess silent trade rather compare crowd poem
+enjoy element indicate except expect flat seven interesting sense string blow famous value
+wing movement pole exciting branch thick blood lie spot bell fun loud consider suggested
+thin position entered fruit tied rich dollar send sight chief stream planet rhythm eight
+science major observe tube necessary weight meat lifted process army hat property
+particular swim term current park sell shoulder industry wash block spread wife sharp
+company radio action capital factory settled yellow southern truck fair printed ahead
+chance born level triangle repeated column western church sister fresh shop especially
+shoes actually nose afraid dead sugar office huge gun similar death score forward
+stretched experience rose allow fear worker women bought led march northern create
+difficult match win steel total deal determine evening rope cotton apple detail entire
+corn smell tool condition arrived located sir seat division effect view
+
+computer phone email internet website online software screen keyboard mouse password
+message video picture camera music movie network data file folder program app update
+download upload search click button page link window server code coffee tea breakfast
+lunch dinner kitchen bread cheese butter chicken rice pasta soup salad fruit orange
+banana potato tomato onion garlic pepper salt sugar chocolate cake cookie juice wine beer
+bottle plate bowl cup glass fork knife spoon table chair sofa lamp mirror pillow blanket
+towel shower bathroom bedroom closet stairs roof garage apartment neighbor street avenue
+corner bridge station airport hotel hospital pharmacy bakery market supermarket library
+museum theater cinema restaurant cafe bar office factory farm university college lesson
+homework exam grade teacher student classroom pencil notebook backpack calendar weekend
+holiday vacation birthday party wedding gift present invitation ticket passport luggage
+suitcase journey flight train bus taxi bicycle motorcycle traffic parking driver pilot
+engineer lawyer nurse dentist manager artist writer singer actor farmer chef waiter
+police officer firefighter soldier scientist teacher secretary assistant customer client
+guest visitor stranger husband daughter cousin nephew niece grandmother grandfather
+parents brother sister twins baby teenager adult elderly neighbor colleague partner boss
+
+answer arrive attack avoid borrow breathe brush celebrate cheat choose climb collect
+complain connect cover crash cry damage dare decide deliver depend deserve destroy dig
+disagree discover discuss disappear divide dream drink earn educate employ encourage
+enter escape examine excuse exist expand explore fail fasten fetch fill fix float fold
+forgive freeze frighten gather glow greet grin guard hang happen hate heal hide hire hope
+hug hunt hurry ignore imagine improve inform injure insist install introduce invent invite
+iron join judge kick kiss kneel knit knock label laugh launch lean lend lift limit listen
+lock manage mark marry measure melt mention mix murmur nod obey offer open order organize
+own pack paint park pass pause perform permit pick pinch plant pour pray prefer prepare
+pretend prevent print promise protect provide pull punch push quit raise reach realize
+receive recognize recommend reduce refuse relax release remind remove repair repeat
+replace reply rescue rest retire return reveal rinse risk roll rub rush scare scream
+search select settle shake share shave shine shiver shoot shrug sigh sign sink skip slide
+slip smash smile sneeze snore solve sort spare spill spin split squeeze stare steer
+stitch stretch struggle succeed suffer suggest supply support surround survive suspect
+swallow swing switch taste tease thank threaten throw tickle tie tip touch tour trace
+train translate trap travel treat tremble trust try tumble type unlock unpack upset urge
+vanish visit wander warn wash waste water wave weigh welcome whisper whistle wink wipe
+wonder worry wrap yawn yell zip
+
+able absent accurate active actual afraid aggressive alive amazing ancient angry annual
+anxious automatic available average awake aware awful basic bitter blank blind bold bored
+brave brief brilliant broad busy calm capable careful careless casual central cheap cheerful
+chemical clever close comfortable common complex confident constant correct crazy creative
+crisp cruel curious current cute daily dangerous dear decent delicate delicious dirty
+distant divine double dull eager eastern elegant empty endless equal essential exact
+excellent expensive extra extreme faint false familiar fancy fat favorite fierce final
+firm flexible fluent foolish formal former fortunate frequent friendly frozen funny
+generous gentle genuine giant glad global gorgeous grateful greedy guilty handsome harsh
+healthy helpful helpless honest horrible hungry ideal ill illegal immediate impossible
+incredible independent informal innocent intelligent internal invisible jealous junior
+keen kind lazy legal likely liquid little lonely loose lovely loyal lucky mad magic
+massive mature mental mild minor mobile modest moral narrow nasty national native neat
+negative nervous nice noble normal obvious odd official ordinary original patient
+peaceful perfect permanent personal physical plain pleasant polite popular positive
+powerful practical precious pregnant primary private professional proper proud public
+pure rapid rare raw realistic recent regular relevant reliable remote responsible rough
+royal rude sad safe scared secret senior sensible serious severe shallow shy sick silly
+sincere slight slim smooth sober solid sore sour spare specific spicy splendid stable
+steady steep sticky stiff strict stupid sudden sufficient sweet swift talented tender
+terrible thankful thirsty tidy tight tired tough tropical typical ugly unable unique
+united unknown unusual upper upset urgent useful useless usual vague valid various vast
+violent visible vital warm weak wealthy weird wet wicked wise wonderful worried worthy
+wrong young zero
+
+ability absence academy access accident account achievement advantage adventure advice
+affair agency agenda agreement airline alarm album alcohol alley ambition analysis
+ancestor anger ankle announcement anxiety apology appeal appearance appetite application
+appointment approach approval argument arrangement arrival article aspect assignment
+association atmosphere attempt attention attitude audience author authority autumn
+award balance balcony bargain barrier basket battery battle beach beard beauty behavior
+belief benefit blanket blossom border boundary brain brand bread breath breeze brick
+budget bunch burden button cabin cable campaign canal candidate candle canvas capacity
+career carpet category ceiling celebration challenge champion channel chapter character
+charity chest choice circumstance citizen climate clinic coach coin collection column
+comedy comfort command comment commitment committee community comparison competition
+complaint concept concern concert conclusion conference confidence conflict confusion
+connection consequence contact content contest context contract contribution
+conversation cottage council courage cousin creature credit crime crisis criticism
+culture curiosity curtain cushion custom cycle danger database deadline debate debt
+decade decision defense definition degree delay delivery demand department deposit depth
+description desire destination development device diet dimension dinner disaster
+discipline discount discussion disease display document domain donation drama drawer
+economy edition editor effort election emergency emotion emphasis employee employer
+engine entrance environment episode equipment error essay estate evidence excitement
+exhibition existence expansion expectation expense expert explanation expression
+extension facility failure faith fashion fault feature fee festival fiction finance
+flavor flight focus fortune foundation fountain framework freedom frequency function
+funeral furniture future gallery gap generation genius gesture glove goal grain grammar
+gravity guarantee guidance guide guitar habit harbor harmony headline health hearing
+height heritage highway honey horizon hospital household identity illness image impact
+impression income independence index infant inflation influence initiative injury
+innovation insight inspection instance institution instruction instrument insurance
+intention interview introduction investment invitation issue item jacket journal
+journey judgment justice kingdom knowledge laboratory landscape lawyer layer leadership
+league lecture legend leisure liberty license lifestyle limit literature loan location
+logic luxury magazine maintenance majority management manner manufacturer margin marriage
+meaning medicine membership memory menu mercy method military mission mistake mixture
+mode model monitor mood motion motor muscle mystery narrative nature negotiation network
+newspaper noise novel nursery objective obligation occasion offer operation opinion
+opponent opportunity option orchestra organization outcome output owner package painting
+palace panel parade passage passenger passion patience pattern payment penalty pension
+percentage perception performance permission personality perspective phenomenon
+philosophy photograph phrase physics pilot pioneer pitch planet platform pleasure plenty
+pocket poetry policy politics pollution population portion portrait possession
+possibility poverty practice prayer preference preparation presence pressure prevention
+pride priest principle priority prison privacy prize procedure profession profit
+progress project promise proof proportion proposal prospect protection protest
+publication purchase purpose quality quantity quarter queen radiation range ratio
+reaction reality recipe recognition recording recovery reduction reference reflection
+reform relation relationship relief religion remark rent replacement reputation request
+requirement research reservation resident resistance resolution resource response
+responsibility restaurant restriction revenue review revolution reward rhythm ribbon
+ritual rival routine salary sample satisfaction scene schedule scheme scholar scope
+script sculpture season secretary sector security selection sensation sentence sequence
+series session settlement shadow shelter shortage signal silence silver sketch skill
+slice slogan society solution source specialist species spectrum speech spirit sponsor
+stadium staff stage standard statue status strategy strength stress structure studio
+style substance success suggestion summary supplement surgery survey survival symbol
+sympathy symptom talent target tax technique technology teenager telescope television
+temple tendency tension territory text texture theme theory therapy thread threat
+tissue title tone topic tournament tradition tragedy transfer transition transport
+treasure treatment trend trial tribe triumph tunnel tutor twist uniform universe
+vacation variety vegetable vehicle venture version victim victory view violence virtue
+vision visitor volume volunteer voyage wage wealth website welfare whale width wisdom
+witness wonder workshop wrist youth zone
+
+about above across actually after afterwards again against ahead almost alone along
+already although altogether always among anyway anywhere apart around aside away
+backwards barely because before behind below beneath beside besides between beyond
+briefly certainly clearly completely constantly currently definitely despite directly
+during easily either elsewhere enough entirely especially even eventually ever exactly
+except finally forever forward frankly fully further generally gently hardly hence
+honestly however immediately indeed instead lately later least likely meanwhile merely
+mostly nearly neither nevertheless nonetheless normally nowhere obviously occasionally
+often once otherwise outside overall perhaps possibly previously probably quickly quite
+rarely rather recently regardless relatively seldom seriously shortly simply slightly
+somehow sometimes somewhat somewhere soon specifically still suddenly surely therefore
+though throughout thus together tomorrow tonight totally truly twice typically
+ultimately unless unlike unlikely until upon usually very whatever whenever wherever
+whether while within without yesterday yet
+
+January February March April May June July August September October November December
+Monday Tuesday Wednesday Thursday Friday Saturday Sunday English French German Spanish
+Italian Chinese Japanese Russian American British European African Asian Europe Africa
+Asia America London Paris Berlin Rome Madrid Tokyo Bucharest Vienna Prague
+
+accept achieve acquire adapt adjust admire admit adopt advise afford agree aim allow alter
+announce apologize appreciate approve argue arrange assume assure attach attend attract
+avoid bake balance bathe beg behave belong bend bet bite bleed bless blink boil bounce
+bow breed broadcast brush bury calculate cancel capture chase chat cheer chew claim clap
+combine comfort commit communicate compete complete concentrate confirm confuse
+congratulate consist construct consult contact continue contribute convert convince
+copy correct cough count crawl criticize cultivate cure dance deal declare decorate
+defeat defend define delay delete demand deny describe design detect develop dial
+disappoint dismiss distribute disturb dive donate double doubt drag drain drown dust
+edit elect eliminate embrace emerge employ enable engage enhance ensure establish
+estimate evaluate evolve exaggerate exchange exhibit expand experience export express
+extend fade feed fit flash flee flip flood flow focus forbid forecast found frame
+fry gain generate glance glue govern grab graduate grant grasp greet grind guide
+handle harm heat highlight hop host hunt identify illustrate imply import impress
+include increase indicate influence inherit inspect inspire intend interrupt investigate
+involve jog juggle kidnap knot land last leak lecture license lick lie load locate
+maintain manufacture match matter melt memorize migrate mind mislead mount multiply
+negotiate note notify obtain occupy occur operate oppose organize overcome owe paddle
+participate peel persuade photograph pinch plan plug point polish pop possess post
+practice praise predict preserve press pretend print proceed process produce prohibit
+pronounce propose prove publish punish purchase pursue qualify question quote race
+rank rate react recover recycle reflect register regret reject relate rely remain
+remember rent reply represent request require research reserve resign resist resolve
+respect respond restore retain review revise reward ride ring roast rotate ruin rule
+satisfy scan schedule score scratch seal secure seek seize sew shape shelter shift shop
+shout shut skate sketch ski slam slap sniff snow soak specify spell sprinkle squash
+stack stamp steal stir store strengthen strike stroll study submit subtract supervise
+surrender swap sweep swim tackle tap target teach tear text thrive tidy tolerate toss
+trade transform transport tremble trim trip triumph tune twist undergo undo unite
+unfold update upgrade value vary verify volunteer vote wake wipe withdraw wrestle yield
+
+airplane alphabet ambulance anchor ant apron aquarium arrow attic avocado axe bag
+bandage barn basketball bat battery bean bee beetle belt bench berry bin blender boot
+bowl bracelet branch broom bubble bucket buffalo bulb bunny butterfly cabbage cactus
+calculator camel candle canoe cap carrot castle caterpillar cauliflower cave cello
+chain chalk cherry chess chimney cinnamon clock cloud clown coconut comb compass cone
+crab crayon crocodile crown cucumber cupboard curtain daisy deer desk diamond dinosaur
+dolphin donkey dove dragon drum duck eagle earring elbow elephant envelope eraser
+feather fence flag flamingo flashlight flute fox frog garlic giraffe goat goose
+gorilla grape guitar hamburger hammer hamster harp hedgehog helicopter helmet honey
+hook horn hose igloo jar jellyfish jungle kangaroo kettle kite kitten koala ladder
+ladybug lemon leopard lettuce lion lizard lobster lollipop magnet mango maple mask
+melon microphone microscope monkey mosquito moth mushroom napkin necklace needle nest
+octopus olive onion orange ostrich owl oyster paddle palm panda parrot peach peanut
+pear pebble pelican pencil penguin piano pickle pig pigeon pineapple pizza plum pumpkin
+puppy puzzle rabbit raccoon radish rainbow rattle robot rocket saddle sandwich scarf
+scissors scooter seal shark sheep shell skateboard skeleton skunk sled snail snake
+socks spider sponge squirrel stapler starfish strawberry submarine sunflower swan
+sword teapot telescope tent tiger toaster toothbrush tortoise tractor trumpet tulip
+turkey turtle umbrella unicorn vase violin volcano walrus wallet watermelon whale
+whistle wolf worm yacht zebra

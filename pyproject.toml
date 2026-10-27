@@ -1,0 +1,25 @@
+[project]
+name = "fastype"
+version = "0.1.0"
+description = "A typing trainer for the Mac"
+requires-python = ">=3.10"
+dependencies = ["PySide6>=6.6"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+fastype = "fastype.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.setuptools.package-data]
+fastype = ["assets/*.png", "data/*.txt"]

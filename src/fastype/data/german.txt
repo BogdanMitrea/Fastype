@@ -1,0 +1,243 @@
+# Common German words, roughly most frequent first, nouns capitalised. Written for Fastype.
+# Lines starting with # are ignored. Words may be separated by spaces or newlines.
+ich du das ist nicht die es und Sie der zu wir ein was er in mit mir den sie sich ja so
+dich auf hier mich wie eine haben habe hast hat sind bin bist war noch nur mal wenn aber
+da kann dass ihr uns schon für dir von jetzt nein gut doch an auch dem bitte alles sein
+wird einen nach weiß wo will oder muss ihn hab dann also immer kannst kein nichts mein
+etwas geht los gehen machen mache macht weg warum gibt keine sehr wieder ganz meine einem
+man vor zum zurück einer mehr komm viel wer heute werden sagen sagt danke ihm wirklich
+weißt wissen müssen musst ihnen soll sollte vielleicht leid aus nie denn diese diesen
+dieser dieses ihre ihren meinen deine dein euch gerade würde wäre hätte habt seid können
+könnte möchte wollen willst weil bei durch über unter um ohne gegen bis seit zwei drei
+vier fünf zehn Mann Frau Kind Leute Zeit Tag Jahr Jahre Haus Geld Leben Vater Mutter
+Gott Herr Welt Ende Sache Arbeit Weg Hand Augen Kopf Nacht Morgen Abend Freund Freunde
+Stadt Hilfe Name Problem Frage Moment Minute Stunde Woche Familie Auto Wasser Tür
+hallo tschüss klar genau sicher natürlich wirklich richtig falsch groß klein neu alt
+lang kurz schnell langsam viel wenig gern lieber besser beste schön einfach schwer
+
+sehen sieht sah gesehen kommen kommt kam gekommen geben gab gegeben nehmen nimmt nahm
+genommen finden findet fand gefunden denken denkt dachte gedacht glauben glaube glaubt
+bleiben bleibt blieb geblieben lassen lässt ließ gelassen stehen steht stand liegen
+liegt lag sitzen sitzt saß sprechen spricht sprach gesprochen fragen fragt fragte
+gefragt hören hört hörte gehört brauchen brauche braucht brauchte spielen spielt
+spielte arbeiten arbeitet arbeitete leben lebt lebte wohnen wohnt wohnte kaufen kauft
+kaufte bezahlen bezahlt essen isst aß gegessen trinken trinkt trank getrunken schlafen
+schläft schlief geschlafen laufen läuft lief gelaufen fahren fährt fuhr gefahren
+fliegen fliegt flog geflogen schreiben schreibt schrieb geschrieben lesen liest las
+gelesen lernen lernt lernte gelernt verstehen versteht verstand verstanden helfen hilft
+half geholfen warten wartet wartete suchen sucht suchte gesucht zeigen zeigt zeigte
+erzählen erzählt erzählte bringen bringt brachte gebracht tragen trägt trug halten
+hält hielt gehalten fallen fällt fiel gefallen ziehen zieht zog gezogen rufen ruft rief
+gerufen versuchen versucht versuchte vergessen vergisst vergaß erinnern erinnert
+erinnere kennen kennt kannte gekannt lieben liebt liebte mögen mag mochte gefällt
+öffnen öffnet schließen schließt beginnen beginnt begann begonnen enden endet
+verlieren verliert verlor verloren gewinnen gewinnt gewann gewonnen treffen trifft traf
+getroffen bekommen bekommt bekam sterben stirbt starb gestorben töten tötet tötete
+erklären erklärt erklärte entscheiden entscheidet entschied passieren passiert passierte
+werden wurde geworden worden hatte hatten waren gewesen musste mussten konnte konnten
+durfte sollten wollte wollten möchten dürfen darf darfst
+
+Mensch Menschen Herz Seite Teil Land Platz Grund Bild Wort Wörter Schule Buch Zimmer
+Tisch Stuhl Bett Fenster Wand Küche Garten Straße Ecke Brücke Bahnhof Zug Bus Flugzeug
+Schiff Fahrrad Telefon Handy Computer Brief Karte Zeitung Musik Film Spiel Lied Kaffee
+Tee Bier Wein Milch Brot Käse Fleisch Fisch Obst Gemüse Apfel Kuchen Frühstück
+Mittagessen Abendessen Hunger Durst Essen Getränk Glas Flasche Teller Tasse Messer Gabel
+Löffel Kleid Hose Hemd Schuhe Jacke Mantel Hut Tasche Koffer Schlüssel Uhr Brille Bruder
+Schwester Sohn Tochter Eltern Oma Opa Onkel Tante Mädchen Junge Baby Hund Katze Pferd
+Vogel Baum Blume Wald Berg Fluss Meer See Strand Insel Himmel Sonne Mond Stern Wetter
+Regen Schnee Wind Winter Sommer Frühling Herbst Montag Dienstag Mittwoch Donnerstag
+Freitag Samstag Sonntag Januar Februar März April Mai Juni Juli August September Oktober
+November Dezember Arzt Ärztin Lehrer Lehrerin Polizei Polizist Chef Kollege Kunde Firma
+Büro Geschäft Laden Markt Bank Post Krankenhaus Kirche Hotel Restaurant Kino Theater
+Museum Bibliothek Universität Stunde Uhrzeit Termin Geburtstag Hochzeit Party Urlaub
+Reise Ferien Wochenende Feier Geschenk Idee Antwort Fehler Glück Pech Angst Liebe Spaß
+Freude Hoffnung Gefühl Gedanke Traum Wahrheit Lüge Recht Gesetz Krieg Frieden Kampf
+Gefahr Sicherheit Ruhe Lärm Stimme Sprache Farbe Größe Nummer Zahl Preis Rechnung Hälfte
+Anfang Mitte Richtung Nähe Ort Raum Ding Dinge Art Weise Fall Beispiel Geschichte Grund
+Ziel Plan Chance Wahl Entscheidung Erfahrung Erinnerung Meinung Nachricht Information
+
+gestern morgen übermorgen bald später früher spät früh oft manchmal selten jemals
+niemals sofort endlich zuerst danach dann schließlich wieder noch schon erst fast kaum
+genug ziemlich wirklich sehr total echt eigentlich trotzdem deshalb deswegen darum also
+außerdem sonst nämlich zwar allerdings jedoch sogar wenigstens mindestens ungefähr
+vielleicht wahrscheinlich bestimmt sicherlich leider hoffentlich zusammen allein überall
+nirgends irgendwo dort drüben oben unten vorne hinten links rechts draußen drinnen
+hierher dorthin woher wohin wann wieso weshalb welche welcher welches jemand niemand
+jeder jede jedes alle beide andere anderen viele wenige einige manche solche selbst
+nichts etwas alles mehr weniger meistens hinter neben zwischen vorbei entlang statt
+wegen trotz innerhalb außerhalb gegenüber nachdem bevor während obwohl falls sobald
+damit sodass ob als sowie sondern weder noch entweder
+
+gut schlecht schön hässlich groß klein lang kurz hoch tief breit schmal dick dünn schwer
+leicht hart weich warm kalt heiß kühl nass trocken hell dunkel laut leise schnell
+langsam früh spät jung alt neu reich arm voll leer offen geschlossen sauber schmutzig
+richtig falsch wahr möglich unmöglich wichtig einfach schwierig ruhig gefährlich sicher
+krank gesund müde wach hungrig durstig glücklich traurig froh wütend böse nett freundlich
+lustig ernst klug dumm stark schwach fertig bereit frei besetzt teuer billig günstig
+lecker süß sauer salzig bitter scharf frisch fremd bekannt berühmt ehrlich höflich
+fleißig faul mutig ängstlich ruhig nervös zufrieden stolz eifersüchtig verliebt
+verheiratet ledig schwanger tot lebendig ganz halb erste zweite dritte letzte nächste
+einzige ähnlich gleich verschieden anders normal komisch seltsam merkwürdig toll super
+prima wunderbar herrlich schrecklich furchtbar schlimm peinlich spannend langweilig
+interessant gemütlich praktisch modern deutsch englisch französisch europäisch
+international national öffentlich privat persönlich allgemein besonders bestimmt
+blau rot grün gelb schwarz weiß grau braun rosa lila orange
+
+Körper Gesicht Haar Haare Ohr Nase Mund Zahn Zähne Hals Arm Finger Bein Fuß Füße Rücken
+Bauch Blut Haut Herzschlag Gesundheit Krankheit Schmerz Schmerzen Medizin Tablette
+Apotheke Fieber Erkältung Husten Unfall Notfall Wohnung Miete Nachbar Nachbarin Keller
+Dach Treppe Aufzug Balkon Badezimmer Schlafzimmer Wohnzimmer Kühlschrank Herd Ofen
+Spülmaschine Waschmaschine Sofa Schrank Regal Lampe Spiegel Teppich Vorhang Kissen Decke
+Handtuch Seife Zahnbürste Dusche Badewanne Toilette Heizung Strom Licht Gas Müll Kartoffel
+Tomate Zwiebel Knoblauch Salat Suppe Nudeln Reis Ei Eier Butter Zucker Salz Pfeffer Honig
+Marmelade Wurst Schinken Hähnchen Rind Schwein Saft Wasserflasche Schokolade Eis Keks
+Banane Orange Zitrone Erdbeere Kirsche Birne Traube Nuss Gurke Paprika Möhre Pilz
+Bäckerei Metzgerei Supermarkt Kasse Quittung Kreditkarte Bargeld Münze Euro Cent Konto
+Gehalt Steuer Kosten Angebot Rabatt Werbung Kaufhaus Größe Farbe Mode Kleidung Socke
+Socken Pullover Rock Bluse Anzug Krawatte Gürtel Mütze Schal Handschuh Stiefel Ring Kette
+Bahnsteig Gleis Fahrkarte Ticket Abfahrt Ankunft Verspätung Flughafen Flug Pass Grenze
+Zoll Gepäck Landkarte Stadtplan Ausflug Reisebüro Sehenswürdigkeit Rathaus Schloss Burg
+Turm Denkmal Platz Park Spielplatz Parkplatz Ampel Kreuzung Haltestelle Autobahn Tankstelle
+Werkstatt Fahrer Führerschein Unfall Stau Verkehr Taxi Straßenbahn Kreuzfahrt Hafen
+
+Arbeit Beruf Stelle Bewerbung Lebenslauf Vorstellungsgespräch Gehalt Vertrag Kündigung
+Chefin Mitarbeiter Mitarbeiterin Abteilung Besprechung Sitzung Projekt Aufgabe Ergebnis
+Erfolg Ziel Lösung Unterschied Möglichkeit Wirtschaft Unternehmen Industrie Produkt
+Qualität Preis Markt Handel Bank Geld Kredit Schulden Rente Versicherung Steuer Gesellschaft
+Politik Regierung Partei Wahl Bürger Staat Land Bundesland Hauptstadt Grenze Europa
+Deutschland Österreich Schweiz Rumänien Frankreich Italien Spanien England Amerika Berlin
+Wien Zürich Hamburg München Köln Frankfurt Bukarest Paris Rom London Bildung Schüler
+Schülerin Student Studentin Studium Prüfung Note Klasse Klassenzimmer Unterricht Kurs
+Lektion Hausaufgabe Übung Wörterbuch Grammatik Satz Text Seite Kapitel Thema Frage
+Aussprache Fehler Bedeutung Wissenschaft Forschung Technik Internet Webseite Programm
+Bildschirm Tastatur Maus Passwort Datei Nachricht Bild Foto Kamera Video Fernseher
+Fernsehen Radio Zeitschrift Artikel Roman Gedicht Autor Künstler Maler Musiker Sänger
+Sängerin Schauspieler Konzert Ausstellung Kunst Kultur Tradition Religion Natur Umwelt
+Klima Luft Erde Boden Stein Sand Feld Wiese Tal Hügel Küste Welle Wolke Gewitter Blitz
+Donner Nebel Eis Temperatur Grad Tier Tiere Kuh Schaf Ziege Huhn Ente Maus Fuchs Bär
+Wolf Hase Fisch Insekt Biene Schmetterling Spinne Pflanze Blatt Gras Rose Kraut
+
+antworten anrufen anfangen aufhören aufstehen aufwachen ausgehen aussehen aussteigen
+einsteigen umsteigen einkaufen einladen einschlafen kennenlernen mitkommen mitnehmen
+nachdenken vorbereiten vorstellen zuhören zumachen aufmachen anziehen ausziehen
+umziehen abholen ankommen abfahren losfahren zurückkommen weitergehen spazieren
+wandern schwimmen tanzen singen lachen weinen lächeln küssen umarmen heiraten feiern
+kochen backen putzen waschen spülen aufräumen reparieren bauen malen zeichnen
+fotografieren telefonieren reisen besuchen übernachten buchen reservieren bestellen
+empfehlen probieren schmecken riechen fühlen spüren merken bemerken beobachten
+betrachten entdecken erkennen erleben erreichen erwarten erlauben verbieten
+versprechen vermissen verdienen verkaufen vermieten verwenden benutzen gebrauchen
+brauchen besitzen gehören fehlen passen stimmen dauern kosten zahlen sparen leihen
+schenken senden schicken bekommen erhalten wählen ändern wechseln tauschen teilen
+verbinden trennen sammeln zählen rechnen messen wiegen prüfen kontrollieren
+korrigieren verbessern üben wiederholen übersetzen buchstabieren beschreiben
+berichten diskutieren streiten schimpfen lügen glauben hoffen wünschen träumen
+fürchten ärgern freuen interessieren kümmern beeilen ausruhen entspannen
+beschweren entschuldigen bedanken gratulieren begrüßen verabschieden
+
+Achtung Abenteuer Absicht Alltag Alter Ansicht Anzahl Atmosphäre Aufmerksamkeit
+Ausbildung Ausdruck Ausnahme Aussicht Bedingung Begriff Beispiel Bereich Bericht
+Beschreibung Beweis Beziehung Bitte Blick Botschaft Dank Daten Ehre Eindruck Einfluss
+Energie Entwicklung Ereignis Erklärung Erlaubnis Erziehung Fähigkeit Forderung
+Fortschritt Freiheit Freundschaft Frucht Führung Gegend Gegenteil Geheimnis Gelegenheit
+Gerechtigkeit Gericht Geschmack Gespräch Gewalt Gewohnheit Gleichgewicht Grenze Gruppe
+Handlung Heimat Hinweis Interesse Jugend Kampf Kenntnis Kraft Kritik Lage Leistung
+Lust Macht Mangel Mehrheit Menge Methode Mitglied Mitte Mut Nachteil Neugier Not Ordnung
+Pflicht Prinzip Prozess Qualität Rat Rede Regel Reihe Rolle Ruf Rücksicht Schicksal
+Schuld Schutz Schwäche Sinn Sorge Spur Stärke Stil Stimmung Stolz Streit Struktur Stück
+Summe System Tat Tatsache Teilnahme Umgebung Umstand Unterstützung Ursache Urteil
+Veränderung Verantwortung Verbindung Verhalten Verhältnis Verlust Vernunft Verständnis
+Vertrauen Verwandte Vorteil Vorschlag Wahrheit Wandel Wert Widerstand Wille Wirkung
+Wissen Wunsch Würde Zeichen Zeitpunkt Zukunft Zusammenhang Zustand Zweck Zweifel
+
+Abfahrt Abschied Abschluss Absender Adresse Agentur Ahnung Aktion Angebot Angestellte
+Anmeldung Anruf Anrufbeantworter Anschluss Anspruch Anteil Antrag Anwalt Anweisung
+Anzeige Apfelsaft Arbeitsplatz Ärger Aufenthalt Aufgabe Auflage Aufnahme Auftrag Aufzug
+Augenblick Ausgang Auskunft Ausland Ausländer Ausstellung Auswahl Ausweis Bäcker Bahn
+Ball Band Bau Bauer Beamte Bedarf Begleitung Behörde Beitrag Bekannte Belohnung Bemerkung
+Benzin Beratung Bergsteiger Bescheid Besitz Besuch Besucher Betrag Betrieb Bett Bevölkerung
+Bewegung Bewohner Bezahlung Bier Bildschirm Birne Blume Boot Braten Brille Brötchen
+Buchhandlung Bühne Bundesregierung Café Chor Computerspiel Dauer Decke Diskussion Dorf
+Dose Drucker Durchschnitt Dusche Ecke Ehe Ehemann Ehefrau Eingang Einkauf Einladung
+Eintritt Einwohner Einzelheit Empfang Empfehlung Enkel Enkelin Entfernung Erdgeschoss
+Ergebnis Erholung Ernährung Ersatz Erwachsene Fabrik Fach Fahrt Fahrplan Feiertag
+Fernbedienung Fest Feuer Feuerwehr Figur Fläche Fleck Flur Formular Fortsetzung Frisör
+Frist Füller Fußball Fußgänger Gabel Gang Gast Gastgeber Gebäude Gebiet Gebühr Geburt
+Gedächtnis Geduld Gefängnis Gegenwart Gehirn Geldbeutel Gemeinde Gemüse Genehmigung
+Gericht Geräusch Gerät Geschwister Gesellschaft Getränk Gewicht Gewinn Gipfel Gleis
+Grenze Großeltern Großstadt Gruß Gürtel Gutschein Haltestelle Handwerker Haushalt
+Hausnummer Heft Heimweg Held Helm Hemd Hersteller Hintergrund Hitze Hobby Hof Höhe
+Holz Hörer Hund Hütte Inhalt Jahrhundert Jahreszeit Kalender Kantine Kapitän Kasse
+Kellner Kellnerin Kerze Kino Kiosk Kiste Kleidung Klingel Knie Knopf Kollegin Komfort
+Konflikt König Königin Kontakt Kopie Korb Kosten Kraftwerk Krankenkasse Krankenschwester
+Kreis Kugel Kühlschrank Kunst Kurs Kuss Laden Lampe Länge Lastwagen Laune Lebensmittel
+Leiter Leitung Licht Lieferung Liste Loch Lohn Luft Mahlzeit Maler Mannschaft Mappe
+Mauer Meinung Meister Menü Messe Miete Mieter Milch Minister Mittag Mittel Möbel Monat
+Motor Motorrad Müll Mülleimer Mund Mütze Nachbarschaft Nachmittag Nachtisch Nadel Netz
+Neuigkeit Notiz Ofen Öffnungszeit Öl Paket Papier Parfüm Partner Partnerin Pause Person
+Pflanze Pflege Pilot Pinsel Plakat Planet Plastik Portemonnaie Praxis Programm Prospekt
+Prüfung Publikum Pullover Punkt Quelle Rad Radfahrer Rasen Rathaus Raucher Recht Regal
+Regel Reifen Reinigung Reis Reiseführer Rezept Richter Rind Rock Ruhe Sache Saal Saft
+Salz Sammlung Schachtel Schalter Schatten Schatz Scheibe Schein Schere Schild Schirm
+Schlaf Schloss Schluss Schmuck Schnitzel Schrank Schraube Schreibtisch Schritt Schublade
+Schule Schulter Schwimmbad Sekretärin Sendung Sessel Sieg Sitz Sitzplatz Sohn Soldat
+Sonderangebot Spaziergang Speisekarte Spiegel Spielzeug Spitze Sport Sportler Stadion
+Stadtteil Stall Station Steckdose Stelle Stern Stift Stockwerk Stoff Strafe Strand Strom
+Studium Stuhl Sturm Suche Tablett Tafel Tag Tankstelle Tanz Tasche Taschentuch Tastatur
+Technik Teich Teil Teilnehmer Telefonnummer Teller Tempo Termin Teppich Test Theater
+Ticket Tier Tierarzt Titel Tod Topf Tor Torte Tourist Trainer Training Traum Treffen
+Treppe Trinkgeld Tropfen Tuch Tüte Typ Übernachtung Ufer Umschlag Umzug Unfall Unterkunft
+Unterschrift Untersuchung Urlaub Verabredung Verband Verein Verkäufer Verkäuferin Verlag
+Vermieter Verwaltung Volk Vorname Vorort Vorsicht Vorstellung Vortrag Wagen Wahl Wald
+Wanderung Ware Wäsche Weg Weihnachten Ostern Werkzeug Wetterbericht Wettbewerb Wiese
+Witz Wohnort Wolke Wunde Wurst Zahl Zahnarzt Zange Zeitschrift Zeitung Zelt Zentrum
+Zettel Zeugnis Ziel Zimmer Zitrone Zoo Zucker Zufall Zuhause Zukunft Zunge Zuschauer
+Zwiebel Zwilling
+
+abbiegen abgeben ablehnen abnehmen abschließen absagen achten akzeptieren anbieten
+ändern anmelden annehmen anschauen ansehen anstellen aufpassen aufnehmen aufschreiben
+ausfüllen ausgeben ausleihen auspacken ausrichten aussuchen ausschalten austauschen
+auswählen backen baden basteln beantragen beantworten bedeuten beenden befinden begleiten
+behalten behandeln behaupten beißen bekämpfen beraten bereiten beruhigen beschäftigen
+beschließen besprechen bestehen bestätigen beten betreuen bewerben bewegen bezahlen
+bieten binden bitten blasen blühen braten brechen brennen buchen danken decken dienen
+diskutieren drehen drucken drücken duschen eilen einfallen einführen eingeben einpacken
+einrichten einschalten eintragen einziehen empfangen entfernen enthalten entlassen
+entstehen entwickeln erfahren erfinden erhöhen erkälten erledigen ernähren eröffnen
+erschrecken ersetzen erwähnen fangen fassen faulenzen fernsehen festhalten feststellen
+finanzieren fliehen fließen folgen fordern fördern fotografieren frühstücken führen
+füllen funktionieren füttern garantieren genießen geraten geschehen gewöhnen gießen
+graben greifen grillen gründen grüßen gucken handeln hängen heben heizen herstellen
+herunterladen hinlegen hinsetzen holen husten informieren joggen kämpfen klagen klettern
+klingeln klopfen kochen kopieren kriegen landen langweilen leiden leisten leiten liefern
+loben lösen mähen melden mieten mischen nähen nennen nicken notieren nutzen operieren
+organisieren packen parken pflegen planen platzen produzieren putzen rasieren raten
+rauchen reagieren regnen reichen reinigen reißen rennen retten richten rollen rühren
+sagen schaffen schälen schalten schauen scheinen schieben schießen schimpfen schlagen
+schmeißen schneiden schneien schützen schweigen segeln senken setzen sinken sorgen
+sparen speichern sperren spülen starten stecken stehlen steigen stellen stören stoßen
+strahlen streichen streiten stricken studieren stürzen surfen tanken tippen trainieren
+träumen trennen treten trocknen tun überholen überlegen überprüfen überraschen
+überweisen überzeugen umdrehen unterhalten unterrichten unterscheiden unterschreiben
+unterstützen untersuchen verabreden verändern verbringen vergleichen verhaften verlangen
+verlassen verletzen verpassen verraten verreisen verschieben verschwinden versichern
+verteilen vertrauen verwechseln verzeihen vorbeikommen vorhaben vorschlagen wachsen
+wagen wärmen wecken wehtun weitermachen werfen widersprechen wiegen wischen wundern
+zeichnen zerstören zugeben zunehmen zweifeln
+
+abhängig absolut aktiv aktuell angenehm ängstlich anstrengend arbeitslos ärgerlich
+aufgeregt aufmerksam ausgezeichnet ausländisch bequem bereit berufstätig beschäftigt
+bescheiden bewölkt blond breit dankbar dauernd deutlich direkt doppelt dringend eilig
+eindeutig einsam elektrisch eng entfernt enttäuscht erfolgreich erkältet ernst erstaunt
+erwachsen fair fantastisch farbig feucht fein fest flach fleißig flexibel fremd
+freiwillig fröhlich furchtbar gefährlich geduldig geheim geistig gemeinsam genau
+gerecht gering gesamt gespannt gewöhnlich giftig glatt gleichzeitig grob großartig
+günstig hart häufig heimlich herzlich hilfsbereit hübsch intelligent jährlich kaputt
+kompliziert kostenlos kräftig kreativ kritisch künstlich langfristig lebhaft ledig
+leidenschaftlich lieb locker los mehrere menschlich mild mündlich nah nervös neugierig
+notwendig nützlich obligatorisch offiziell ordentlich pünktlich regelmäßig riesig
+romantisch rund sanft satt schick schlank schmerzhaft schriftlich selbstständig sonnig
+sozial sparsam spontan sportlich ständig steil still streng stündlich sympathisch
+täglich technisch treu typisch übrig unbedingt unglaublich unterschiedlich ursprünglich
+verantwortlich verboten verrückt verständlich vollständig vorsichtig wach wahrscheinlich
+weich weltweit wertvoll wöchentlich wolkig wunderschön zahlreich zufällig zuverlässig
