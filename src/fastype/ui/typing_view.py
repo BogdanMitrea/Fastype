@@ -86,11 +86,12 @@ class TypingView(QWidget):
         self.update()
 
     def _height_for(self, lines: int) -> int:
-        return int(self.top + self.line_h * lines + 12)
+        # Round up: rounding down left the last line a fraction of a pixel short of fitting.
+        return math.ceil(self.top + self.line_h * lines + 12)
 
     def _fit_lines(self) -> None:
         """Show as many of the wanted lines as the widget has room for (when the window is small)."""
-        fit = int((self.height() - self.top - 12) // self.line_h)
+        fit = int((self.height() - self.top - 12 + 0.5) // self.line_h)
         self.visible_lines = max(1, min(self.wanted_lines, fit)) if fit > 0 else self.wanted_lines
 
     def sizeHint(self) -> QSize:
@@ -192,7 +193,10 @@ class TypingView(QWidget):
         return next((n for n, (a, b) in enumerate(self._lines) if a <= pos < b), len(self._lines) - 1)
 
     def _first_line(self) -> int:
+        """The top visible line: keeps the line being typed near the top, with the
+        upcoming line always visible below it (never typing on the last visible row)."""
         lead = 1 if self.visible_lines <= 4 else self.visible_lines // 3
+        lead = max(0, min(lead, self.visible_lines - 2))
         return max(0, min(self._caret_line() - lead, len(self._lines) - self.visible_lines))
 
     def _caret_pos(self, first: float) -> tuple[float, float]:
